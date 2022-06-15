@@ -1,0 +1,25 @@
+site_name: Decreto Aiuti
+site_description: sito per riorganizzare le informazioni sul DL 50/2022
+site_author: Paolo Volterra
+use_directory_urls: false
+nav:
+    - Home: 'index.md'
+    - normativa: 
+        - decreto Legge: 'normativa.md'
+        - iter legislativo: 'IterLegislativo.md'
+
+    - 'beneficiari':
+        - 'Energivore 2022': 'Energivore2022.md'
+        - 'Energivore 2022 In Istruttoria': 'Energivore2022InIstruttoria.md'
+        - 'Gasivore - requisiti': 'Gasivore_requisiti.md'
+        - 'Gasivore - ATECO': 'gasivore_ATECO.md'
+        
+    - sitografia: 'sitografia.md'
+    
+plugins:
+    - search
+theme:
+  name: material
+
+extra_css:
+  - stylesheets/extra.css
